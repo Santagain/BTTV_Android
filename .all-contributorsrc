@@ -61,6 +61,33 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "Xslash58",
+      "name": "Xslash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75801324?v=4",
+      "profile": "https://github.com/Xslash58",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "GogaFroga",
+      "name": "Artur",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80777820?v=4",
+      "profile": "https://github.com/GogaFroga",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "YOEL-44",
+      "name": "YOEL_44",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7842997?v=4",
+      "profile": "https://github.com/YOEL-44",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -1,6 +1,9 @@
 package bttv.settings;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 
 import bttv.Res;
@@ -68,6 +71,15 @@ public enum Settings {
                 Res.strings.bttv_settings_open_highlights_dia_secondary,
                 null,
                 SettingsDestination.BTTV_HIGHLIGHTS
+            )
+    ),
+    HighlightedKeyWords(
+            new Entry.StringSetEntry(
+                    "bttv_highlight_set",
+                    new HashSet<>(),
+                    null,
+                    null,
+                    null
             )
     );
 

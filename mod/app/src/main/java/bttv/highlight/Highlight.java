@@ -16,6 +16,7 @@ import java.util.Set;
 import bttv.Data;
 import bttv.Res;
 import bttv.ResUtil;
+import bttv.settings.Settings;
 import bttv.settings.UserPreferences;
 import tv.twitch.android.shared.chat.ChatMessageDelegate;
 import tv.twitch.android.shared.chat.ChatMessageInterface;
@@ -40,23 +41,23 @@ public class Highlight {
         if (highlightSet != null) {
             return;
         }
-        highlightSet = UserPreferences.getStringSet(Data.ctx, "bttv_highlight_set");
+        highlightSet = ResUtil.getStringSetFromSettings(Settings.HighlightedKeyWords);
     }
 
     public static void remove(String word) {
-        highlightSet.remove(word);
-        UserPreferences.setStringSet(Data.ctx, "bttv_highlight_set", highlightSet);
+        highlightSet.remove(word.toLowerCase());
+        Settings.HighlightedKeyWords.entry.set(Data.ctx, new UserPreferences.Entry.StringSetValue(highlightSet));
     }
 
     public static boolean add(String word) {
-        boolean val = highlightSet.add(word);
-        UserPreferences.setStringSet(Data.ctx, "bttv_highlight_set", highlightSet);
+        boolean val = highlightSet.add(word.toLowerCase());
+        Settings.HighlightedKeyWords.entry.set(Data.ctx, new UserPreferences.Entry.StringSetValue(highlightSet));
         return val;
     }
 
     public static boolean shouldHighlight(String word) {
         loadSet();
-        return highlightSet.contains(word);
+        return highlightSet.contains(word.toLowerCase());
     }
 
     public static void openDialog(Activity activity) {
