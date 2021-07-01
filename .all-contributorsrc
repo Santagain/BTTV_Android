@@ -30,7 +30,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/19285400?v=4",
       "profile": "https://github.com/StephanBruh",
       "contributions": [
-        "ideas"
+        "ideas",
+        "translation"
       ]
     },
     {
@@ -87,6 +88,33 @@
       "profile": "https://github.com/YOEL-44",
       "contributions": [
         "translation"
+      ]
+    },
+    {
+      "login": "albertopasqualetto",
+      "name": "albertopasqualetto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39854348?v=4",
+      "profile": "https://github.com/albertopasqualetto",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "kendricktsoi",
+      "name": "kendricktsoi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53035976?v=4",
+      "profile": "https://github.com/kendricktsoi",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "ashamefuldog",
+      "name": "ashamefuldog",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52229049?v=4",
+      "profile": "https://github.com/ashamefuldog",
+      "contributions": [
+        "ideas"
       ]
     }
   ],
