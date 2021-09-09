@@ -19,11 +19,21 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: download base
-        run: wget https://www.dropbox.com/s/4afhhkxrduttn9c/twitch-11.0.0.apk\?\dl=1 -O twitch.apk
+        run: wget https://www.dropbox.com/s/odr7ifl0v8l4hry/twitch-11.4.0.apk\?\dl=1 -O twitch.apk
       - name: create keystore.kjs from secret
         run: echo "${{ secrets.KEYSTORE }}" | base64 -d > keystore.jks
       - name: run build
-        run: docker run --rm -v $(pwd)/twitch.apk:/usr/build/twitch.apk -v $(pwd)/dist:/usr/build/dist -v $(pwd)/mod:/usr/build/mod -v $(pwd)/monke.patch:/usr/build/monke.patch -v $(pwd)/keystore.jks:/usr/build/keystore.jks -e KS=/usr/build/keystore.jks -e KSPASS=${{ secrets.KSPASS }} ghcr.io/bttv-android/builder
+        run: |
+          docker run --rm \
+            -v $(pwd)/twitch.apk:/usr/build/twitch.apk \
+            -v $(pwd)/dist:/usr/build/dist \
+            -v $(pwd)/mod:/usr/build/mod \
+            -v $(pwd)/monke.patch:/usr/build/monke.patch \
+            -v $(pwd)/.all-contributorsrc:/usr/build/.all-contributorsrc \
+            -v $(pwd)/keystore.jks:/usr/build/keystore.jks \
+            -e KS=/usr/build/keystore.jks \
+            -e KSPASS=${{ secrets.KSPASS }} \
+            ghcr.io/bttv-android/builder
       - name: print checksums
         run: cp dist/twitch.apk bttv.apk && shasum *.apk
       - uses: actions/upload-artifact@v2
@@ -37,6 +47,13 @@ jobs:
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - name: Get CHANGELOG
+        run: |
+          echo "RELEASE_BODY<<EOF" > /tmp/bttv &&
+          head -n25 CHANGELOG.md >> /tmp/bttv &&
+          echo "EOF" >> /tmp/bttv &&
+          cat /tmp/bttv >> $GITHUB_ENV
       - uses: actions/download-artifact@v2
         with:
           name: bttv-apk
@@ -48,7 +65,7 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          body: ${{ github.event.head_commit.message }}
+          body: ${{ env.RELEASE_BODY }}
           draft: true
           prerelease: false
       - run: echo "version_tag=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_ENV

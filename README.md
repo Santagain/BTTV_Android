@@ -27,7 +27,7 @@ A mod of the Twitch Android Mobile App adding BetterTTV, FrankerFaceZ and 7TV em
 
 # Build it yourself
 
-> This patch is meant to be applied to version **11.0.0** of the official twitch app
+> This patch is meant to be applied to version **11.4.0** of the official twitch app
 > Make sure you use this version before you create an issue!
 
 ## Easy way: Docker
@@ -104,7 +104,7 @@ Made with ♥️ by [@FoseFx](https://github.com/FoseFx) and contributors. MIT L
 [license-badge]: https://img.shields.io/github/license/bttv-android/bttv?style=flat-square
 [license-file]: ./LICENSE
 [bttv-version]: https://img.shields.io/github/v/release/bttv-android/bttv?style=flat-square
-[base-version]: https://img.shields.io/badge/build%20on-v11.0.0-blueviolet?style=flat-square
+[base-version]: https://img.shields.io/badge/build%20on-v11.4.0-blueviolet?style=flat-square
 [downloads-latest]: https://img.shields.io/github/downloads/bttv-android/bttv/latest/total?color=yellow&style=flat-square
 [downloads-total]: https://img.shields.io/github/downloads/bttv-android/bttv/total?color=yellowgreen&label=downloads%20total&style=flat-square
 [latest-release]: https://github.com/bttv-android/bttv/releases/latest
@@ -135,7 +135,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.fosefx.com/"><img src="https://avatars.githubusercontent.com/u/22842759?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Max Baumann</b></sub></a><br /><a href="#maintenance-FoseFx" title="Maintenance">🚧</a></td>
-    <td align="center"><a href="https://github.com/LEMIBANDDEXARI"><img src="https://avatars.githubusercontent.com/u/70129787?v=4?s=100" width="100px;" alt=""/><br /><sub><b>LEMIBANDDEXARI</b></sub></a><br /><a href="#translation-LEMIBANDDEXARI" title="Translation">🌍</a> <a href="#ideas-LEMIBANDDEXARI" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/LEMIBANDDEXARI"><img src="https://avatars.githubusercontent.com/u/70129787?v=4?s=100" width="100px;" alt=""/><br /><sub><b>LEMIBANDDEXARI</b></sub></a><br /><a href="#translation-LEMIBANDDEXARI" title="Translation">🌍</a> <a href="#ideas-LEMIBANDDEXARI" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/bttv-android/bttv/issues?q=author%3ALEMIBANDDEXARI" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/StephanBruh"><img src="https://avatars.githubusercontent.com/u/19285400?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stephan</b></sub></a><br /><a href="#ideas-StephanBruh" title="Ideas, Planning, & Feedback">🤔</a> <a href="#translation-StephanBruh" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/zeykafx"><img src="https://avatars.githubusercontent.com/u/37271973?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Corentin Detry</b></sub></a><br /><a href="https://github.com/bttv-android/bttv/issues?q=author%3Azeykafx" title="Bug reports">🐛</a> <a href="#translation-zeykafx" title="Translation">🌍</a></td>
     <td align="center"><a href="http://dioneb.me"><img src="https://avatars.githubusercontent.com/u/15141090?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dione Batista</b></sub></a><br /><a href="#translation-Santagain" title="Translation">🌍</a> <a href="https://github.com/bttv-android/bttv/issues?q=author%3ASantagain" title="Bug reports">🐛</a></td>
@@ -150,6 +150,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ashamefuldog"><img src="https://avatars.githubusercontent.com/u/52229049?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ashamefuldog</b></sub></a><br /><a href="#ideas-ashamefuldog" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/Zeuxis29"><img src="https://avatars.githubusercontent.com/u/84096340?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zeuxis29</b></sub></a><br /><a href="#translation-Zeuxis29" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/xplod62"><img src="https://avatars.githubusercontent.com/u/87228564?v=4?s=100" width="100px;" alt=""/><br /><sub><b>xplod62</b></sub></a><br /><a href="#ideas-xplod62" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/colahobi"><img src="https://avatars.githubusercontent.com/u/73035288?v=4?s=100" width="100px;" alt=""/><br /><sub><b>colahobi</b></sub></a><br /><a href="#ideas-colahobi" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/Epicnicity322"><img src="https://avatars.githubusercontent.com/u/13574419?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christiano Rangel</b></sub></a><br /><a href="https://github.com/bttv-android/bttv/issues?q=author%3AEpicnicity322" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/GauravM512"><img src="https://avatars.githubusercontent.com/u/37218716?v=4?s=100" width="100px;" alt=""/><br /><sub><b>GauravM512</b></sub></a><br /><a href="#ideas-GauravM512" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/bttv-android/bttv/issues?q=author%3AGauravM512" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 

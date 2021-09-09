@@ -21,7 +21,8 @@
       "profile": "https://github.com/LEMIBANDDEXARI",
       "contributions": [
         "translation",
-        "ideas"
+        "ideas",
+        "bug"
       ]
     },
     {
@@ -133,6 +134,34 @@
       "profile": "https://github.com/xplod62",
       "contributions": [
         "ideas"
+      ]
+    },
+    {
+      "login": "colahobi",
+      "name": "colahobi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73035288?v=4",
+      "profile": "https://github.com/colahobi",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "Epicnicity322",
+      "name": "Christiano Rangel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13574419?v=4",
+      "profile": "https://github.com/Epicnicity322",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "GauravM512",
+      "name": "GauravM512",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37218716?v=4",
+      "profile": "https://github.com/GauravM512",
+      "contributions": [
+        "ideas",
+        "bug"
       ]
     }
   ],
