@@ -9,7 +9,7 @@
       "login": "FoseFx",
       "name": "Max Baumann",
       "avatar_url": "https://avatars.githubusercontent.com/u/22842759?v=4",
-      "profile": "https://www.fosefx.com/",
+      "profile": "https://bmn.dev/",
       "contributions": [
         "maintenance"
       ]
@@ -161,6 +161,24 @@
       "profile": "https://github.com/GauravM512",
       "contributions": [
         "ideas",
+        "bug"
+      ]
+    },
+    {
+      "login": "nelswad90",
+      "name": "Dennis Magee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2206347?v=4",
+      "profile": "https://github.com/nelswad90",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "Senpai206",
+      "name": "Senpai206",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68463773?v=4",
+      "profile": "https://github.com/Senpai206",
+      "contributions": [
         "bug"
       ]
     }

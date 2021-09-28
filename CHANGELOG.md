@@ -1,7 +1,17 @@
 # Changelog
 
-## master
+# v0.13.1-beta
+- add "show deleted messages" feature
+- fix some bugs related to missing emotes
+
+# v0.13.0-beta
+- rebase to v11.6.0
+- add "Get Bits" Button with redirect
+- adding spaces between emotes back
+
+## v0.12.0-beta
 - gift subs now redirect to sub web page
+- update to base v11.5.0
 
 ## v0.11.0-beta
 - update to base v11.4.0

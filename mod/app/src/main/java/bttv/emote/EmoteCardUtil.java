@@ -3,7 +3,8 @@ package bttv.emote;
 import io.reactivex.Single;
 import tv.twitch.android.shared.chat.model.EmoteCardModel;
 import tv.twitch.android.shared.chat.parser.EmoteCardModelParser;
-import tv.twitch.android.shared.emotes.models.EmoteModelAssetType;
+import tv.twitch.android.models.emotes.EmoteModelAssetType;
+
 
 public class EmoteCardUtil {
 
@@ -28,4 +29,16 @@ public class EmoteCardUtil {
         return Single.just(resp);
     }
 
+    // called in Ltv/twitch/android/shared/chat/emotecard/EmoteCardUiModel.<init>
+    public static String maybeReplaceEmoteCardUiModelEmoteUrl(EmoteCardModel model, String originalUrl) {
+        if (model == null || model.emoteId == null) {
+            return originalUrl;
+        }
+        String bttvId = EmoteUrlUtil.extractBTTVId(model.emoteId);
+        if (bttvId != null) {
+            return EmoteUrlUtil.realIdToUrl(bttvId);
+        } else {
+            return originalUrl;
+        }
+    }
 }

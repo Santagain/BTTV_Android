@@ -5,10 +5,10 @@
 package tv.twitch.android.shared.emotes.emotepicker.models;
 
 import tv.twitch.android.shared.emotes.emotepicker.EmotePickerPresenter;
-import tv.twitch.android.shared.emotes.models.EmoteModelAssetType;
+import tv.twitch.android.models.emotes.EmoteModelAssetType;
 
 public class EmoteUiModel {
-    public EmoteUiModel(String id, boolean isLockIconVisible, boolean isLonClickIconVisible,
-                        EmotePickerPresenter.ClickedEmote clickedEmote, boolean isAnimationIconVisible, EmoteModelAssetType assetType) {
+    public EmoteUiModel(String id, EmotePickerPresenter.ClickedEmote clickedEmote,
+                        EmoteModelAssetType assetType, EmoteImageDescriptor emoteImageDescriptor) {
     }
 }
