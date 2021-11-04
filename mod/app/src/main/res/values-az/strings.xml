@@ -21,6 +21,10 @@
     <string name="bttv_settings_enable_auto_redeem_points_primary">Kanal Xallarını Avtomatik İstifadə Et</string>
     <string name="bttv_settings_show_sleep_timer_primary">Yuxu Vaxtölçənini Göstər</string>
     <string name="bttv_emote_added_by_bttv">bttv-android ifadəni əlavə etdi</string>
+    <!-- e.g.: FrankerFaceZ Emote added by FoseFx -->
+    <string name="bttv_emote_added_by_bttv_ffz">FrankerFaceZ ifadəsi %s tərəfindən əlavə edildi</string>
+    <!-- e.g.: 7TV Emote added by FoseFx -->
+    <string name="bttv_emote_added_by_bttv_stv">7TV ifadəsi %s tərəfindən əlavə edildi</string>
     <string name="bttv_updater_downloading">Endirilir</string>
     <string name="bttv_updater_downloading_version">%s endirilir</string>
     <string name="bttv_updater_notice">Yeniləyicini ilk dəfədir istifadə edirsinizsə, sehrbaz sizdən soruşanda bu mənbədən quraşdırmalara icazə verin.</string>
@@ -40,4 +44,10 @@
     <string name="bttv_credits_ideas">İdeyalar</string>
     <string name="bttv_credits_translations">Tərcümələr</string>
     <string name="bttv_copied_to_clipboard">İstifadəçi adı lövhəyə kopyalandı</string>
+    <string name="bttv_settings_enable_split_chat">Bölünmüş söhbət</string>
+    <string name="bttv_settings_enable_split_chat_descr">Hər ikinci söhbət mesajının arxaplanını rəngləndirin</string>
+    <string name="bttv_settings_gif_render_mode_animate_forever">Həmişəlik canlandır</string>
+    <string name="bttv_settings_gif_render_mode_descr">Qeyd: \"Həmişəlik canlandır\" batereyanızın daha tez bitirə bilər</string>
+    <string name="bttv_highlight_dia_list_empty">Burada heç nə yoxdur\n¯\\_(ツ)_/¯</string>
+    <string name="bttv_highlight_user_notice"><![CDATA[<user> istifadəçisini vurğulaya bilərsiniz. Məs.: <fosefx>]]></string>
 </resources>

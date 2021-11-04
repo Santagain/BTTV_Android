@@ -1,5 +1,19 @@
 # Changelog
 
+# master
+- improve the highlight keyword dialog
+- highlight keywords in VODs
+- you can now highlight users like this: &lt;fosefx&gt;
+
+# v0.14.1-beta
+- fix webp animations (again)
+- adjust split chat colors
+
+# v0.14.0-beta
+- rebase to v11.7.0
+- add split chat feature
+- Emotes now behave like animated sub emotes, you disable this in the settings
+
 # v0.13.1-beta
 - add "show deleted messages" feature
 - fix some bugs related to missing emotes

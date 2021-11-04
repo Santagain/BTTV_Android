@@ -21,6 +21,10 @@
     <string name="bttv_settings_enable_auto_redeem_points_primary">Récupération automatique des points de chaine</string>
     <string name="bttv_settings_show_sleep_timer_primary">Afficher minuterie de sommeil</string>
     <string name="bttv_emote_added_by_bttv">Emote ajoutée par bttv-android</string>
+    <!-- e.g.: FrankerFaceZ Emote added by FoseFx -->
+    <string name="bttv_emote_added_by_bttv_ffz">Emote FrankerFaceZ ajoutée par %s</string>
+    <!-- e.g.: 7TV Emote added by FoseFx -->
+    <string name="bttv_emote_added_by_bttv_stv">Emote 7TV ajoutée par %s</string>
     <string name="bttv_updater_downloading">Téléchargement</string>
     <string name="bttv_updater_downloading_version">Téléchargement %s</string>
     <string name="bttv_updater_notice">Si c\'est la première fois que vous utilisez le programme de mise à jour, autorisez les installations à partir de cette source lorsque l\'assistant vous le demande.</string>
@@ -33,10 +37,16 @@
     <string name="bttv_settings_gif_render_mode_static">Statique</string>
     <string name="bttv_settings_gif_render_mode_disabled">Désactivé</string>
     <string name="bttv_settings_open_credits_button_title">Crédits</string>
+    <string name="bttv_settings_enable_show_deleted_messages">Afficher les messages supprimés</string>
     <string name="bttv_credits_title">Crédits</string>
     <string name="bttv_credits_intro">bttv-android a été créé par <annotation link_to="https://github.com/FoseFx">FoseFx</annotation> avec l\'aide de ces aimables personnes :</string>
     <string name="bttv_credits_bugs">Rapports de bogues</string>
     <string name="bttv_credits_ideas">Idées</string>
     <string name="bttv_credits_translations">Traductions</string>
     <string name="bttv_copied_to_clipboard">Nom d\'utilisateur copié dans le presse-papiers</string>
+    <string name="bttv_settings_enable_split_chat">Diviser le chat</string>
+    <string name="bttv_settings_enable_split_chat_descr">Teindre l\'arrière plan en alternant un message sur deux</string>
+    <string name="bttv_settings_gif_render_mode_animate_forever">Animer pour toujours</string>
+    <string name="bttv_settings_gif_render_mode_descr">Note : \"Animer pour toujours\" peut décharger votre batterie très rapidement</string>
+    <string name="bttv_highlight_dia_list_empty">Il n\'y a rien ici\n¯\\_(ツ)_/¯</string>
 </resources>

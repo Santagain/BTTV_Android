@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: download base
-        run: wget https://www.dropbox.com/s/d9a4531ppc5k5o6/twitch-11.6.0.apk\?\dl=1 -O twitch.apk
+        run: wget https://www.dropbox.com/s/ul6vq831awvuahp/twitch-11.7.0.apk\?\dl=1 -O twitch.apk
       - name: create keystore.kjs from secret
         run: echo "${{ secrets.KEYSTORE }}" | base64 -d > keystore.jks
       - name: run build
@@ -28,7 +28,7 @@ jobs:
             -v $(pwd)/twitch.apk:/usr/build/twitch.apk \
             -v $(pwd)/dist:/usr/build/dist \
             -v $(pwd)/mod:/usr/build/mod \
-            -v $(pwd)/monke.patch:/usr/build/monke.patch \
+            -v $(pwd)/patches:/usr/build/patches \
             -v $(pwd)/.all-contributorsrc:/usr/build/.all-contributorsrc \
             -v $(pwd)/keystore.jks:/usr/build/keystore.jks \
             -e KS=/usr/build/keystore.jks \

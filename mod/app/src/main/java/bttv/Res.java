@@ -12,9 +12,12 @@ public class Res {
         bttv_sleep_timer_button,
         bttv_highlight_dia_list,
         bttv_highlight_dia_input,
+        bttv_highlight_dia_input_wrap,
+        bttv_highlight_submit_btn,
         bttv_highlight_dia_title,
         bttv_highlight_dia_list_text,
         bttv_highlight_dia_list_btn,
+        bttv_highlight_dia_list_empty,
         bttv_credits_into_tv
     }
     public enum layouts {
@@ -46,6 +49,8 @@ public class Res {
         bttv_settings_enable_auto_redeem_points_primary,
         bttv_settings_show_sleep_timer_primary,
         bttv_emote_added_by_bttv,
+        bttv_emote_added_by_bttv_ffz,
+        bttv_emote_added_by_bttv_stv,
         bttv_updater_downloading,
         bttv_updater_downloading_version,
         bttv_updater_notice,
@@ -55,6 +60,8 @@ public class Res {
         bttv_settings_highlights_dia_title,
         bttv_settings_gif_render_mode_title,
         bttv_settings_gif_render_mode_animate,
+        bttv_settings_gif_render_mode_animate_forever,
+        bttv_settings_gif_render_mode_descr,
         bttv_settings_gif_render_mode_static,
         bttv_settings_gif_render_mode_disabled,
         bttv_settings_open_credits_button_title,
@@ -65,5 +72,9 @@ public class Res {
         bttv_credits_ideas,
         bttv_credits_translations,
         bttv_copied_to_clipboard,
+        bttv_settings_enable_split_chat,
+        bttv_settings_enable_split_chat_descr,
+        bttv_highlight_dia_list_empty,
+        bttv_highlight_user_notice,
     }
 }

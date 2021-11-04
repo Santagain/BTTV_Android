@@ -22,6 +22,10 @@
     <string name="bttv_settings_enable_auto_redeem_points_primary">Auto-Redeem Channel Points</string>
     <string name="bttv_settings_show_sleep_timer_primary">Show Sleep Timer</string>
     <string name="bttv_emote_added_by_bttv">Emote added by bttv-android</string>
+    <!-- e.g.: FrankerFaceZ Emote added by FoseFx -->
+    <string name="bttv_emote_added_by_bttv_ffz">FrankerFaceZ Emote added by %s</string>
+    <!-- e.g.: 7TV Emote added by FoseFx -->
+    <string name="bttv_emote_added_by_bttv_stv">7TV Emote added by %s</string>
     <string name="bttv_updater_downloading">Downloading</string>
     <string name="bttv_updater_downloading_version">Downloading %s</string>
     <string name="bttv_updater_notice">If this is the first time you use the updater, allow installations from this source when the wizard asks you for it.</string>
@@ -41,4 +45,10 @@
     <string name="bttv_credits_ideas">Ideas</string>
     <string name="bttv_credits_translations">Translations</string>
     <string name="bttv_copied_to_clipboard">Username copied to clipboard</string>
+    <string name="bttv_settings_enable_split_chat">Split Chat</string>
+    <string name="bttv_settings_enable_split_chat_descr">Tint the background of every second chat message</string>
+    <string name="bttv_settings_gif_render_mode_animate_forever">Animate forever</string>
+    <string name="bttv_settings_gif_render_mode_descr">Note: "Animate forever" might drain your battery really fast</string>
+    <string name="bttv_highlight_dia_list_empty">There\'s nothing here\n¯\\_(ツ)_/¯</string>
+    <string name="bttv_highlight_user_notice"><![CDATA[You can highlight a <user> like this. e.g.: <fosefx>]]></string>
 </resources>

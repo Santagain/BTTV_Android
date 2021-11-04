@@ -1,0 +1,23 @@
+diff --git a/smali_classes6/tv/twitch/android/shared/bits/BitsSpendingPresenter.smali b/smali_classes6/tv/twitch/android/shared/bits/BitsSpendingPresenter.smali
+--- a/smali_classes6/tv/twitch/android/shared/bits/BitsSpendingPresenter.smali
++++ b/smali_classes6/tv/twitch/android/shared/bits/BitsSpendingPresenter.smali
+@@ -18,7 +18,7 @@
+ 
+ 
+ # instance fields
+-.field private final activity:Landroidx/fragment/app/FragmentActivity;
++.field public final activity:Landroidx/fragment/app/FragmentActivity;
+ 
+ .field private final availabilityTracker:Ltv/twitch/android/shared/analytics/availbility/AvailabilityTracker;
+ 
+@@ -796,7 +796,9 @@
+ 
+     const/4 v2, 0x1
+ 
+-    invoke-virtual {v0, v1, v2}, Ltv/twitch/android/shared/bits/billing/BitsIAPManager;->isPurchasingAvailable(Landroidx/fragment/app/FragmentActivity;Z)Lio/reactivex/Single;
++    # BTTV
++    invoke-static {}, Lbttv/api/Util;->getTrueSingle()Lio/reactivex/Single;
++    # /BTTV
+ 
+     move-result-object v4
+ 

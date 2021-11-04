@@ -27,7 +27,7 @@ A mod of the Twitch Android Mobile App adding BetterTTV, FrankerFaceZ and 7TV em
 
 # Build it yourself
 
-> This patch is meant to be applied to version **11.6.0** of the official twitch app
+> This patch is meant to be applied to version **11.7.0** of the official twitch app
 > Make sure you use this version before you create an issue!
 
 ## Easy way: Docker
@@ -53,8 +53,9 @@ Docker
    docker run --rm -ti \
       -v path/to/twitch.apk:/usr/build/twitch.apk \
       -v /path/to/dist:/usr/build/dist \
-      -v path/to/monke.patch:/usr/build/monke.patch \
+      -v path/to/patches:/usr/build/patches \
       -v /path/to/mod:/usr/build/mod \
+      -v /path/to/.all-contributorsrc:/usr/build/.all-contributorsrc \
       ghcr.io/bttv-android/builder
       ```
    > If you are in the same directory as the apk file you can copy and paste: 
@@ -62,8 +63,9 @@ Docker
       docker run --rm -ti \
          -v $(pwd)/twitch.apk:/usr/build/twitch.apk \
          -v $(pwd)/dist:/usr/build/dist \
-         -v $(pwd)/monke.patch:/usr/build/monke.patch \
+         -v $(pwd)/patches:/usr/build/patches \
          -v $(pwd)/mod:/usr/build/mod \
+         -v $(pwd)/.all-contributorsrc:/usr/build/.all-contributorsrc \
          ghcr.io/bttv-android/builder
       ```
 4. The `dist` directory will contain the patched apk file!
@@ -104,7 +106,7 @@ Made with ♥️ by [@FoseFx](https://github.com/FoseFx) and contributors. MIT L
 [license-badge]: https://img.shields.io/github/license/bttv-android/bttv?style=flat-square
 [license-file]: ./LICENSE
 [bttv-version]: https://img.shields.io/github/v/release/bttv-android/bttv?style=flat-square
-[base-version]: https://img.shields.io/badge/build%20on-v11.6.0-blueviolet?style=flat-square
+[base-version]: https://img.shields.io/badge/build%20on-v11.7.0-blueviolet?style=flat-square
 [downloads-latest]: https://img.shields.io/github/downloads/bttv-android/bttv/latest/total?color=yellow&style=flat-square
 [downloads-total]: https://img.shields.io/github/downloads/bttv-android/bttv/total?color=yellowgreen&label=downloads%20total&style=flat-square
 [latest-release]: https://github.com/bttv-android/bttv/releases/latest
@@ -157,6 +159,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/GauravM512"><img src="https://avatars.githubusercontent.com/u/37218716?v=4?s=100" width="100px;" alt=""/><br /><sub><b>GauravM512</b></sub></a><br /><a href="#ideas-GauravM512" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/bttv-android/bttv/issues?q=author%3AGauravM512" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/nelswad90"><img src="https://avatars.githubusercontent.com/u/2206347?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dennis Magee</b></sub></a><br /><a href="https://github.com/bttv-android/bttv/issues?q=author%3Anelswad90" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/Senpai206"><img src="https://avatars.githubusercontent.com/u/68463773?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Senpai206</b></sub></a><br /><a href="https://github.com/bttv-android/bttv/issues?q=author%3ASenpai206" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/ReggX"><img src="https://avatars.githubusercontent.com/u/1953510?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ReggX</b></sub></a><br /><a href="#ideas-ReggX" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/ZerolCamb"><img src="https://avatars.githubusercontent.com/u/64336142?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ZerolCamb</b></sub></a><br /><a href="#translation-ZerolCamb" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/metezd"><img src="https://avatars.githubusercontent.com/u/37701679?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mete</b></sub></a><br /><a href="#translation-metezd" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/splizh"><img src="https://avatars.githubusercontent.com/u/85130943?v=4?s=100" width="100px;" alt=""/><br /><sub><b>splizh</b></sub></a><br /><a href="#translation-splizh" title="Translation">🌍</a></td>
   </tr>
 </table>
 

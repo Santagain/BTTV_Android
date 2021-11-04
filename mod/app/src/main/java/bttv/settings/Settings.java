@@ -25,6 +25,7 @@ public enum Settings {
                     "bttv_gif_render_mode",
                     new Entry.DropDownValue(
                             new ArrayList<>(Arrays.asList(
+                                    Res.strings.bttv_settings_gif_render_mode_animate_forever,
                                     Res.strings.bttv_settings_gif_render_mode_animate,
                                     Res.strings.bttv_settings_gif_render_mode_static,
                                     Res.strings.bttv_settings_gif_render_mode_disabled
@@ -32,7 +33,7 @@ public enum Settings {
                             Res.strings.bttv_settings_gif_render_mode_animate
                     ),
                     Res.strings.bttv_settings_gif_render_mode_title,
-                    null,
+                    Res.strings.bttv_settings_gif_render_mode_descr,
                     null
             )
     ),
@@ -69,6 +70,15 @@ public enum Settings {
                     new Entry.BoolValue(false),
                     Res.strings.bttv_settings_enable_show_deleted_messages,
                     null,
+                    null
+            )
+    ),
+    SplitChatEnabled(
+            new Entry.BoolEntry(
+                    "enable_split_chat",
+                    new Entry.BoolValue(false),
+                    Res.strings.bttv_settings_enable_split_chat,
+                    Res.strings.bttv_settings_enable_split_chat_descr,
                     null
             )
     ),

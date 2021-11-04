@@ -1,0 +1,12 @@
+diff --git a/smali_classes5/tv/twitch/android/feature/theatre/common/PlayerCoordinatorPresenter.smali b/smali_classes5/tv/twitch/android/feature/theatre/common/PlayerCoordinatorPresenter.smali
+--- a/smali_classes5/tv/twitch/android/feature/theatre/common/PlayerCoordinatorPresenter.smali
++++ b/smali_classes5/tv/twitch/android/feature/theatre/common/PlayerCoordinatorPresenter.smali
+@@ -22,7 +22,7 @@
+ 
+ 
+ # instance fields
+-.field private final activity:Landroidx/fragment/app/FragmentActivity;
++.field public final activity:Landroidx/fragment/app/FragmentActivity;
+ 
+ .field private final adMetadataPresenter:Ltv/twitch/android/feature/theatre/metadata/AdMetadataPresenter;
+ 

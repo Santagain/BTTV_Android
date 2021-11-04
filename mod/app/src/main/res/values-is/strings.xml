@@ -1,2 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="login_landing_title">Velkomin til\nBetter Twitch</string>
+    <string name="bttv_emote_picker_global_bttv">Alheims BTTV Emotes</string>
+    <string name="bttv_emote_picker_channel_bttv">Rásar BTTV Emotes</string>
+    <string name="bttv_emote_picker_global_ffz">Alheims FrankerFaceZ Emotes</string>
+    <string name="bttv_emote_picker_channel_ffz">Rásar FrankerFaceZ Emotes</string>
+    <string name="bttv_emote_picker_global_7tv">Alheims 7TV Emotes</string>
+    <string name="bttv_emote_picker_channel_7tv">Rásar 7TV Emotes</string>
+    <string name="bttv_app_update_available">bttv-android: Ný Uppfærsla Fundin</string>
+    <string name="bttv_app_update_available_cta">Ýttu hér til að hlaða og setja upp uppfærsluna.</string>
+    <string name="bttv_sleep_timer_button_descr">Opna Svefn-Tímamæli Valmynd</string>
+    <string name="bttv_sleep_timer_select_dialog_title">Svefn- Tímamælir</string>
+    <string name="bttv_sleep_timer_cancel_dialog_title">Hætta við Svefn-Tímamælir</string>
+    <string name="bttv_sleep_timer_cancel_dialog_message">Þú ert nú þegar með Svefn Tímamæli í gangi viltu slökkva á honum?</string>
+    <string name="bttv_settings_enable_bttv_emotes_primary">BTTV Emotes</string>
+    <string name="bttv_settings_enable_bttv_emotes_secondary">Af hverju myndirðu slökkva á þessu?</string>
+    <string name="bttv_settings_enable_gif_emotes_primary">BTTV Gif Emotes</string>
+    <string name="bttv_settings_enable_ffz_emotes_primary">FrankerFaceZ Emotes</string>
+    <string name="bttv_settings_enable_7tv_emotes_primary">7TV Emotes</string>
+    <string name="bttv_settings_enable_auto_redeem_points_primary">Sjálfkrafa-Innleysa Rásar Stig</string>
+    <string name="bttv_settings_show_sleep_timer_primary">Sýna Svefn Tímamæli</string>
+    <string name="bttv_emote_added_by_bttv">Emote bætt við af bttv-android</string>
+    <!-- e.g.: FrankerFaceZ Emote added by FoseFx -->
+    <string name="bttv_emote_added_by_bttv_ffz">FrankerFaceZ Emote bætt af %s</string>
+    <!-- e.g.: 7TV Emote added by FoseFx -->
+    <string name="bttv_emote_added_by_bttv_stv">7TV Emote bætt af %s</string>
+    <string name="bttv_updater_downloading">Halar niður</string>
+    <string name="bttv_updater_downloading_version">Halar niður %s</string>
+    <string name="bttv_updater_notice">Ef þetta er í fyrsta skipti sem þú notar uppfærsluna skaltu leyfa uppsetningar frá þessum uppruna þegar wizard biður þig um það.</string>
+    <string name="bttv_settings_open_highlights_dia_primary">Setja Hápunkt Leitarorð</string>
+    <string name="bttv_settings_open_highlights_dia_secondary">Opnar Hápunkt Valmynd</string>
+    <string name="bttv_highlight_dia_list_empty">Það er ekkert hér\n¯\\_(ツ)_/¯</string>
+</resources>
