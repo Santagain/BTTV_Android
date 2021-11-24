@@ -18,10 +18,11 @@ A mod of the Twitch Android Mobile App adding BetterTTV, FrankerFaceZ and 7TV em
  - Auto Updater
  - Sleep Timer
  - Highlight Keywords
+ - Split Chat
 
 # Install
 
-1. Scim through this [guide on how to enable third party app istallations][enable-guide]
+1. Skim through this [guide on how to enable third party app istallations][enable-guide]
 2. Go to the [latest release][latest-release] page and download the `.apk` file of the mod. It periodically checks for new releases so you only have to download it once from there.
    [![How to download][howtodl]][latest-release]
 
@@ -106,7 +107,7 @@ Made with ♥️ by [@FoseFx](https://github.com/FoseFx) and contributors. MIT L
 [license-badge]: https://img.shields.io/github/license/bttv-android/bttv?style=flat-square
 [license-file]: ./LICENSE
 [bttv-version]: https://img.shields.io/github/v/release/bttv-android/bttv?style=flat-square
-[base-version]: https://img.shields.io/badge/build%20on-v11.7.0-blueviolet?style=flat-square
+[base-version]: https://img.shields.io/badge/build%20on-v11.9.0-blueviolet?style=flat-square
 [downloads-latest]: https://img.shields.io/github/downloads/bttv-android/bttv/latest/total?color=yellow&style=flat-square
 [downloads-total]: https://img.shields.io/github/downloads/bttv-android/bttv/total?color=yellowgreen&label=downloads%20total&style=flat-square
 [latest-release]: https://github.com/bttv-android/bttv/releases/latest
@@ -165,6 +166,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/metezd"><img src="https://avatars.githubusercontent.com/u/37701679?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mete</b></sub></a><br /><a href="#translation-metezd" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/splizh"><img src="https://avatars.githubusercontent.com/u/85130943?v=4?s=100" width="100px;" alt=""/><br /><sub><b>splizh</b></sub></a><br /><a href="#translation-splizh" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://bandism.net/"><img src="https://avatars.githubusercontent.com/u/22633385?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ikko Ashimine</b></sub></a><br /><a href="https://github.com/bttv-android/bttv/commits?author=eltociear" title="Documentation">📖</a></td>
   </tr>
 </table>
 

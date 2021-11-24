@@ -1,6 +1,10 @@
 # Changelog
 
-# master
+# v0.15.1-beta
+- fix a split-chat related bug
+
+# v0.15.0-beta
+- rebase to v11.9.0
 - improve the highlight keyword dialog
 - highlight keywords in VODs
 - you can now highlight users like this: &lt;fosefx&gt;
